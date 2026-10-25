@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.kspf
+*.bin
+*.elf
+*.map
+!patches/*.json
+dev/

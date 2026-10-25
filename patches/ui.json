@@ -1,0 +1,25 @@
+{
+ "target": "ui",
+ "image": "keysteppro_ui__fw0_0_1_1823__2024_03_04.bin",
+ "image_sha256": "4540535a1b94bff6d056bab48eddf8b1dde29bd5b62518d83188834b34f48657",
+ "license": "MIT",
+ "edits": [
+  {
+   "addr": "0x8030000",
+   "new": "10b51446dcf77efb00281ad163780d2b17d1164923781e2b10d0154a0a604a60a3789b00134ad218e37813702379537063799370a379d370012010bd00220a60012010bd09490b68094a934203d010b5eaf7f8fb10bd4a68002a05d000224a6010b5f4f7edff10bd70470000007000204d44534bfc080020",
+   "what": "our code"
+  },
+  {
+   "addr": "0x800c7e0",
+   "new": "23f00efc",
+   "old_sha256": "f5ec07ce0c1031fd195066a273ad2278589a5e98a9477ac9c285c6be09406e5a",
+   "what": "USART consumer: frame parser -> ui_rx_hook"
+  },
+  {
+   "addr": "0x800f162",
+   "new": "20f06fff",
+   "old_sha256": "5d2a48391036423708e5e4e4a99ded9b053a46a6c12d1e0f70906b976c274701",
+   "what": "UI main loop: redraw dispatcher -> ui_redraw_hook"
+  }
+ ]
+}
